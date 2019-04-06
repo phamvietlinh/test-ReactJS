@@ -1,0 +1,74 @@
+body {
+	background-color: #eee
+}
+
+
+.form-check-label {
+  margin-left: 40px;
+  position: relative;
+}
+
+/*.form-check-input {
+	position: absolute;
+	left: -20px;
+	top: 0px
+}*/
+
+.form-check span {
+  position: absolute;
+  left: -25px;
+}
+
+
+.mb-2 {
+  margin-bottom: 20px
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+    body {
+        /*background-color: lightblue;*/
+		font-size: 14px;
+    }
+
+    div.container {
+    	/*padding: 0 5px;*/
+    }
+
+    div.col-md-6, div.col-lg-6 {
+    	padding: 0;
+    	margin-bottom: 0px
+    }
+
+    div.form-group {
+    	margin-bottom: 10px
+    }
+
+    label.form-check-label {
+	  margin-left: 10px;
+	  position: relative;
+	}
+
+	.form-group h4 {
+		font-size: 14px;
+		font-weight: 700;
+		margin-top: 5px;
+	}
+
+	.form-check-label {
+		font-size: 14px;
+		font-weight: normal;
+	}
+
+	/*input.form-check-input {
+		position: absolute;
+		left: -10px;
+	}*/
+}
